@@ -76,4 +76,12 @@ dependencies {
     implementation(libs.paging.compose)
     implementation(libs.okhttp.logging)
     implementation("io.coil-kt:coil:2.2.2")
+
+
+    testImplementation ("org.mockito:mockito-core:2.19.0")
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:6.0.0")
+    testImplementation ("org.mockito:mockito-inline:2.13.0")
+    testImplementation(libs.mockwebserver)
+    testImplementation(libs.kotlinx.coroutines.test)
+
 }
